@@ -1,0 +1,102 @@
+[
+  {
+    "ip": "10.16.62.48",
+    "type": "Jetson Xavier NX",
+    "status": "online"
+  },
+  {
+    "ip": "10.16.10.130",
+    "type": "Jetson Nano",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.127.72",
+    "type": "Jetson Nano",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.83.118",
+    "type": "Jetson Nano",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.91.137",
+    "type": "Jetson Nano",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.33.106",
+    "type": "Jetson Nano",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.91.169",
+    "type": "Jetson Nano",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.66.111",
+    "type": "Jetson Nano",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.80.140",
+    "type": "Jetson Nano",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.20.226",
+    "type": "Jetson Nano",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.32.211",
+    "type": "Jetson Nano",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.71.45",
+    "type": "Jetson Xavier NX",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.60.238",
+    "type": "Jetson Xavier NX",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.60.219",
+    "type": "Jetson Xavier NX",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.61.117",
+    "type": "Jetson Xavier NX",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.56.222",
+    "type": "Jetson Xavier NX",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.61.187",
+    "type": "Jetson Xavier NX",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.56.56",
+    "type": "Jetson Xavier NX",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.62.55",
+    "type": "Jetson Xavier NX",
+    "status": "offline"
+  },
+  {
+    "ip": "10.16.61.88",
+    "type": "Jetson Xavier NX",
+    "status": "offline"
+  }
+]

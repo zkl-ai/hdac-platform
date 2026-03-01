@@ -1,0 +1,86 @@
+# =============================
+# Python / Flask 基础忽略项
+# =============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =============================
+# Flask & Logs
+# =============================
+instance/
+*.log
+*.pid
+
+# 不要提交 SECRET KEY / JWT KEY
+*.secret
+secret.key
+jwt.key
+
+# =============================
+# IDE / Editor
+# =============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =============================
+# OS Files
+# =============================
+.DS_Store
+Thumbs.db
+
+# =============================
+# Alembic / Flask-Migrate
+# =============================
+migrations/versions/*.pyc
+migrations/versions/*~
+
+# 注意：版本文件要提交，除非你想每次重新生成 migration
+# 你可以取消注释下面这一行来忽略整个目录（不推荐）
+# migrations/
+
+# =============================
+# Pytest / Coverage
+# =============================
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+
+# =============================
+# Docker
+# =============================
+*.tar
+docker-data/
+docker-compose.override.yml
+
+# =============================
+# 如果你未来加入前端 build
+# backend/static/dist/
+# backend/static/node_modules/
+# =============================
+static/dist/
+node_modules/
+
+# Local config files
+config.local.py
+.env
+.env.*

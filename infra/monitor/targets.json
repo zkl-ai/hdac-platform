@@ -1,0 +1,22 @@
+[
+  {
+    "targets": [
+      "10.16.62.48:9100"
+    ],
+    "labels": {
+      "device_id": "10.16.62.48",
+      "device_type": "Jetson Xavier NX",
+      "job": "jetson"
+    }
+  },
+  {
+    "targets": [
+      "10.16.62.48:9200"
+    ],
+    "labels": {
+      "device_id": "10.16.62.48",
+      "device_type": "Jetson Xavier NX",
+      "job": "jetson"
+    }
+  }
+]

@@ -1,0 +1,1 @@
+This project is a secondary development based on [vue-vben-admin](https://github.com/vbenjs/vue-vben-admin), a modern Vue.js administration dashboard template.

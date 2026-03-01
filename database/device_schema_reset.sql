@@ -1,0 +1,16 @@
+SET FOREIGN_KEY_CHECKS = 0;
+DROP TABLE IF EXISTS `devices`;
+SET FOREIGN_KEY_CHECKS = 1;
+
+CREATE TABLE `devices` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `ip` VARCHAR(64) NOT NULL,
+  `username` VARCHAR(128) NULL,
+  `password` VARCHAR(256) NULL,
+  `port` INT NOT NULL DEFAULT 22,
+  `type` VARCHAR(128) NULL,
+  `status` VARCHAR(32) NOT NULL DEFAULT 'offline',
+  `removed` TINYINT(1) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uniq_ip` (`ip`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

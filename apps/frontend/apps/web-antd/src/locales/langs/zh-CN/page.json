@@ -1,0 +1,28 @@
+{
+  "auth": {
+    "login": "登录",
+    "register": "注册",
+    "codeLogin": "验证码登录",
+    "qrcodeLogin": "二维码登录",
+    "forgetPassword": "忘记密码",
+    "profile": "个人中心"
+  },
+  "dashboard": {
+    "title": "概览",
+    "analytics": "分析页",
+    "workspace": "工作台"
+  },
+  "device": {
+    "title": "设备管理"
+  },
+  "model": {
+    "title": "模型库"
+  }
+  ,
+  "surrogateTask": {
+    "title": "代理模型构建"
+  },
+  "compressTask": {
+    "title": "DNN模型压缩"
+  }
+}

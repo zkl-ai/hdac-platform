@@ -1,0 +1,28 @@
+{
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "codeLogin": "Code Login",
+    "qrcodeLogin": "Qr Code Login",
+    "forgetPassword": "Forget Password",
+    "profile": "Profile"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "analytics": "Analytics",
+    "workspace": "Workspace"
+  },
+  "device": {
+    "title": "Devices"
+  },
+  "model": {
+    "title": "Models"
+  }
+  ,
+  "surrogateTask": {
+    "title": "Surrogate Construction"
+  },
+  "compressTask": {
+    "title": "DNN Model Compression"
+  }
+}
