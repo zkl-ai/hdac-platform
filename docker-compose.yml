@@ -39,5 +39,14 @@ services:
       - backend
     restart: unless-stopped
 
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - ./infra/monitor/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./infra/monitor/targets.json:/etc/prometheus/targets.json
+    ports:
+      - "9090:9090"
+    restart: unless-stopped
+
 volumes:
   db_data:
